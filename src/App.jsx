@@ -5,6 +5,8 @@ import Button from "./Button/Button";
 import Student from "./Student";
 import List from "./List"
 import MyComponent from "./MyComponent"
+import CarForm from "./CarForm";
+import UpdateArray from "./UpdateArray";
 
 function App() {
   return(
@@ -23,6 +25,10 @@ function App() {
       <Footer></Footer>
 
       <Button></Button>
+
+      <CarForm></CarForm>
+
+      <UpdateArray></UpdateArray>
     </>
   );
 }
